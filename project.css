@@ -1,0 +1,339 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+body{
+    padding:0;
+    margin:0;
+   
+}
+button:hover{
+      color:grey;
+      background-color:white;
+}
+.fa-bars{
+    font-size:15px;
+    outline:none;
+}
+.logo{
+    margin-top:11px;
+    font-size:18px;
+    z-index:2;
+    color:white;
+}
+
+.navbar{
+    background-color:#555 !important;
+    color:white;
+}
+a{
+    color:white !important;
+    margin-top:2px;
+    text-align:center;
+}
+.fas{
+    margin:3px;
+}
+a:hover{
+    background-color:white !important;
+    color:#555 !important;
+}
+.image{
+    position:relative;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("https://assets.architecturaldesigns.com/plan_assets/325002316/large/500063VV_01_1556635118.jpg?1556635119");
+    height:85%;
+    opacity:3;
+}
+
+.text{
+    color:white !important;
+    position:absolute;
+    text-align:center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.login{
+    border:none;
+    outline:none;
+    padding:10px 24px;
+    background-color:white;
+    color:#555;
+    font-size:20px;
+    margin:4px;
+}
+.Sign-up{
+    border:none;
+    outline:none;
+    padding:10px 14px;
+    background-color:white;
+    color:#555;
+    font-size:20px;
+}
+.login:hover,.Sign-up:hover{
+    color:white !important;
+    background-color:#555 !important;
+}
+h1{
+    font-size:45px;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+#newsletter{
+    padding:15px;
+    color:#fff;
+    background-color:#555;
+}
+#newsletter p{
+    font-size:25px;
+    float:left;
+    margin-top:10px;
+}
+#newsletter form{
+    float:right
+}
+#newsletter input[type="email"]{
+    padding:10px;
+    width:300px;
+    border:0;
+    color:#555;
+    outline:none;
+}
+.Subscribe{
+    margin-top:13px;
+        padding:10px;
+        background:red;
+        border:0;
+        padding-left:20px;
+        padding-right:20px;
+        color:#fff;
+        font-size:15px;
+        text-align:center;
+        outline:none;
+        opacity:0.9;
+}
+h2{
+    text-align:center;
+    font-weight:bold;
+    margin-top:70px;
+}
+.Subscribe:hover{
+    opacity:1;
+}
+.fa-chart-network{
+    font-size:35px;
+    color:green;
+}
+h3{
+    color:White;
+}
+.team{
+    margin-top:3rem;
+    margin-left:10rem;
+    border-radius:50%;
+    margin-bottom:3rem;
+    background-repeat:no-repeat;
+    padding:20px;
+}
+.alert{
+    color:white !important;
+    background-color:rgb(2, 2, 17) !important;
+}
+.close{
+    color:white !important;
+}
+ul{
+    color:grey !important;
+    background-color: #555;
+}
+.carousel-control.right, .carousel-control.left {
+background-image: none;
+color: #f4511e !important;
+background-color:none;
+}
+.carousel-indicators li {
+border-color: #f4511e !important;
+}
+.carousel-indicators li.active {
+background-color: #f4511e !important;
+}
+.item p {
+font-size: 19px;
+line-height: 1.375em;
+font-weight: 400;
+font-style: italic;
+margin: 70px 0;
+}
+img{
+  position:relative;
+  top:50%;
+  left:34%;
+}
+#price{
+  background-color:lightgray;
+}
+.row{
+  border:1px orangered !important;
+  box-shadow: 10px 10px #555;
+}
+.panel-heading{
+  background-color:orangered !important;
+  color:white !important;
+}
+h5{
+  font-size:25px;
+}
+h6{
+  font-size:20px;
+  line-height:30px;
+  color:#555;
+}
+.btn btn-lg{
+  background-color:orangered !important;
+  color:white !important;
+}
+.pri{
+  background-color:orangered !important;
+  font-size:20px;
+  padding:10px 10px;
+  outline:none;
+  border:none;
+  color:white !important;
+  border-radius:10%;
+}
+.pri:hover{
+  color:orangered !important;
+  background-color:white !important;
+  border:0.5px solid orangered;
+  border-radius:10%;
+}
+.cont{
+  background-color:#555  !important;
+}
+#Contact{
+  background-color:#555  !important;
+  color:white  !important;
+}
+input{
+  padding:5px 0;
+  color:#555  !important;
+  border-radius:10px;
+  outline:none;
+  border:1px solid white;
+  border-radius:3px;
+  margin-left:3px;
+}
+label{
+  font-size:15px;
+}
+.fa-map-marker{
+  margin-top:15px;
+  font-size:20px;
+}
+.con{
+  margin-left:10px;
+  border-radius:50%;
+  margin-left:100px;
+}
+.sig{
+  color:white  !important;
+  background-color:green  !important;
+  opacity:0.9;
+  padding:10px 20px;
+  border:none;
+  outline:none;
+  font-size:20px;
+  border-radius:10px;
+  margin-left:8px;
+}
+.can{
+  color:white  !important;
+  background-color:red  !important;
+  opacity:1;
+  padding:10px 20px;
+  border:none;
+  outline:none;
+  font-size:20px;
+  border-radius:10px;
+  margin-left:8px;
+}
+.can:hover{
+  opacity:0.8;
+}
+.sig:hover{
+  opacity:0.8;
+}
+.fa-facebook-f{
+  color:white;
+  font-size:30px;
+  margin:6px;
+}
+.fa-skype{
+color:white;
+  font-size:30px;
+  margin:8px;
+}
+.fa-twitter-square{
+color:white;
+  font-size:30px;
+  margin:8px;
+}
+.title::before{
+    content:'';
+    height:3px;
+    width:130px;
+    background:red !important;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    transform:translateY(53px);
+}
+.title::after{
+    content:'';
+    height:7px;
+    width:50px;
+    background:red !important;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:40px;
+    display:block;
+    transform:translateY(15px);
+}
+@media(max-width:768px){
+    #newsletter form input[type="text"]{
+        display:block;
+        float:none;
+    }
+    .Subscribe{
+        display:block;
+        width:100%;
+    }
+    .team{
+        margin-right:5px;
+    }
+    img{
+        top:70%;
+        left:13%;
+        width:300px;
+        height:400px;
+    }
+    .con{
+        height:100px;
+        width:100px;
+        margin-left:110px;
+    }
+    input{
+        size:10;
+        }
+    a{
+            font-size:20px;
+            line-height:2em;
+    }
+}
